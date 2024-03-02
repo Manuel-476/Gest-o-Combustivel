@@ -1,0 +1,10 @@
+body{
+    margin:auto;
+}
+.menu_princ li a img
+{
+    width:100px;
+    border:1px solid black;
+    
+}
+

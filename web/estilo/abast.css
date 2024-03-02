@@ -1,0 +1,29 @@
+
+  body{margin:auto;
+     background-image: url(../imagem/inicial.png);
+     background-size: 100%;
+    
+  }
+
+.corpo{display: flex;
+       justify-content: space-between;
+margin:auto;
+width:90%;}
+.tab{width:75%;}
+.formu{
+       }
+.formu input{background-color:#ffcc99; padding:10px;width:178px; }
+.formu select{background-color:#ffcc99; padding:10px;width:200px; }
+thead th{color:white;
+         background-color: #336600;
+         padding:5px;
+         border:1px solid black;  
+        }
+table{ border-spacing: 0px;margin: auto;margin-top: 10px;
+      box-shadow: 3px 6px 8px black;
+     border-radius: 10px;margin:auto;width:80%;}
+table tr{border:1px solid black; }
+table tr td{border:1px solid black;
+            background-color: #ffcc99;
+            text-align: center;
+         padding:5px;}

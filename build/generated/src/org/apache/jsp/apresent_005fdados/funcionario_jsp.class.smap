@@ -1,0 +1,22 @@
+SMAP
+funcionario_jsp.java
+JSP
+*S JSP
+*F
++ 0 funcionario.jsp
+apresent_dados/funcionario.jsp
+*L
+5,2:45
+7:47,9
+8,30:56
+38,3:87
+40,2:90
+42,9:92,3
+51:119
+52:120,7
+53,2:127
+55:129,3
+56,4:132
+60:136,3
+61,4:139
+*E

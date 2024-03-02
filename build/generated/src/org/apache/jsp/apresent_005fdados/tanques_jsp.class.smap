@@ -1,0 +1,19 @@
+SMAP
+tanques_jsp.java
+JSP
+*S JSP
+*F
++ 0 tanques.jsp
+apresent_dados/tanques.jsp
+*L
+5,2:45
+7:47,9
+8,10:56
+18,3:67
+20,3:70
+23:73,6
+24:79,3
+25,2:82
+27:84,3
+28,3:87
+*E
