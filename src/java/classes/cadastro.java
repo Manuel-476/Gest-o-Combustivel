@@ -295,6 +295,7 @@ public class cadastro extends Conexao{
         stmt=con.prepareStatement("insert into funcionario"
                 + " (num_reg,nome,data_nasc,est_civil,genero,grau_academico,funcao,mae,pai,deficiencia)"
                 + " values (?,?,?,?,?,?,?,?,?,?)");
+                
         stmt.setInt(1, obj.getNum_reg());
         stmt.setString(2, obj.getNome());
         stmt.setString(3, obj.getData_nasc());
@@ -306,6 +307,7 @@ public class cadastro extends Conexao{
         stmt.setString(9, obj.getPai());
         stmt.setString(10, obj.getDeficiencia());
         stmt.execute();
+
         obj.setCpf(Cpffun(obj.getNome()));
         st=con.prepareStatement("insert into nacio_func (cpf,id_nacio) values (?,?)");
         st.setInt(1, obj.getCpf());
